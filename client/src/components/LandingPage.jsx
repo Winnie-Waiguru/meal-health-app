@@ -10,12 +10,9 @@ function LandingPage() {
         <Link to="/signup">
           <PrimaryButton children="Join Us" />
         </Link>
-        <p className="text-xl text-[#49555F]">
+        <p className="normal-text">
           Already have an account?{" "}
-          <Link
-            to="/login"
-            className="text-[#266431] font-bold underline-offset-2"
-          >
+          <Link to="/login" className="cta-text">
             Log In
           </Link>
         </p>

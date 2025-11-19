@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #266431;
+  --color-typography: #224945;
+  --color-accent: #ccefe0;
+  --color-neutral: #f8f8f8;
+  --color-complementary: #f5b748;
+  --color-alert: #ff6f4c;
+
+  --font-poppins: "Poppins", sans-serif;
+}
+
+@layer components {
+  .normal-text {
+    @apply font-poppins text-xl text-typography;
+  }
+
+  .cta-text {
+    @apply font-poppins text-primary font-bold;
+  }
+
+  .primary-button {
+    @apply w-[324px] h-14 my-2 rounded-[10px] bg-primary font-poppins text-2xl font-semibold text-white;
+  }
+}
