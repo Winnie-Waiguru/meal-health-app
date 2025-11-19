@@ -8,7 +8,7 @@ function LandingPage() {
 
       <div>
         <Link to="/signup">
-          <PrimaryButton children="Join Us" />
+          <PrimaryButton text="Join Us" />
         </Link>
         <p className="normal-text">
           Already have an account?{" "}

@@ -1,7 +1,7 @@
-function PrimaryButton({ onClick, children }) {
+function PrimaryButton({ onClick, text }) {
   return (
     <button className="primary-button" type="button" onClick={onClick}>
-      {children}
+      {text}
     </button>
   );
 }
