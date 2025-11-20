@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import { FaEyeSlash } from "react-icons/fa6";
 import FormWrapper from "./FormWrapper";
 import FormInput from "./FormInput";
 import PrimaryButton from "./PrimaryButton";
@@ -44,12 +45,18 @@ function SignUpPage() {
           placeholder="johndoe@gmail.com"
         />
 
-        <FormInput id="password" label="Password" type="password" />
+        <FormInput
+          id="password"
+          label="Password"
+          type="password"
+          icon={FaEyeSlash}
+        />
 
         <FormInput
           id="confirm-password"
           label="Confirm password"
           type="password"
+          icon={FaEyeSlash}
         />
 
         <PrimaryButton text="Sign Up" />

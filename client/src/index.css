@@ -35,7 +35,14 @@
     @apply w-[324px] h-14 my-4 rounded-[10px] bg-primary font-poppins text-2xl font-semibold text-white;
   }
 
+  .input-container {
+    @apply relative w-[324px] h-14  mb-6 rounded-[10px] px-3 flex items-center  bg-neutral focus-within:border-2 focus-within:border-primary;
+  }
   .input-field {
-    @apply w-[324px] h-14  mb-6 rounded-[10px] px-3 bg-neutral font-poppins text-base;
+    @apply w-full h-full p-2 outline-0 font-poppins text-[20px] text-typography bg-neutral;
+  }
+
+  .icon-wrapper {
+    @apply absolute right-3 text-2xl text-primary;
   }
 }
